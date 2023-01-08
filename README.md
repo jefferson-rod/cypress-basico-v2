@@ -1,29 +1,31 @@
-# Testes automatizados com Cypress - Básico
+# Cypress-básico-v2
 
-👋 Seja bem-vindo(a)!
+Projeto simples do curso básico de cypress da Talking Aboult Testing online school.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender
+É necessário ter Node.js e npm instalados para executar este projeto.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+> Eu usei a versão `v16.13.2` e `8.1.2` do Node.js e npm, respectivamente. Caso tenha desejo de abrir o projeto, para não haver erros sugiro que você use as mesmas versões ou versões posteriores.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Instalação
 
-## Vamos começar?
+Execute `npm install` para instalar as dev dependencies.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Testes
+
+Voçe pode rodar os testes simulando um viewport de desktop ou mobile.
+
+## Desktop
+Execute 'npm test' (ou 'npm t' para a versão curta) para executar o teste no modo headless do desktop viewport.
+
+Ou, execute 'npm run cy:open' para abrir o Cypress no modo interativo do desktop viewport.
+
+## Mobile
+Execute 'npm test:mobile' (ou 'npm t' para a versão curta) para executar o teste no modo headless do viewport mobile.
+
+Ou, execute 'npm run cy:open:mobile' para abrir o Cypress no modo interativo do viewport mobile.
 
 ___
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+ Este projeto tem fins didáticos para a linguagem de programação cypress.
