@@ -3,7 +3,7 @@
 
 describe('Central de Atendimento ao Cliente TAT', function () {
 
-    beforeEach(function () {
+    //beforeEach(function () {
         cy.visit('src/index.html')
     })
 
@@ -55,7 +55,7 @@ describe('Central de Atendimento ao Cliente TAT', function () {
 
     })
 
-    it.only('preenche e limpa os campos nome, sobrenome, email e telefone', function () {
+    it('preenche e limpa os campos nome, sobrenome, email e telefone', function () {
         cy.get('#firstName')
             .type('jefferson')
             .should('have.value', 'jefferson')
